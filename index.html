@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ardita_Personal</title>
+    <link rel="icon" href="img/logo_nav-03.png" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font (poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font young serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <!-- bootstrap logo -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light sticky-top shadow p-3">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="img/logo_nav-03.png" alt="Logo" />
+          <span>Ardita Personal</span></a
+        >
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about2">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tools">Tools</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- section 1 (home) -->
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center mt-3">
+          <div class="col-md-6 col-10">
+            <h3>Welcome to My Personal Website.</h3>
+            <p class="text-muted">
+              <!--text muted: menurunkan opacity-->
+              Hello, My name is I Putu Ardita, I'm From Banjar Tohpati, Bongkasa
+              Village, Abiansemal Distric, Badung Regency, Bali. This
+              is the personal website I made just for fun and to improve my
+              skills in web programming. I hope you enjoy this simple personal
+              website. If you have any questions or suggestions you can drop in
+              the contact section. Enjoy
+            </p>
+          </div>
+          <!-- perlu diimprove: ukuran gambar (coba pake media query)-->
+          <div class="col-md-4 col-8 d-flex align-items-center">
+            <img
+              src="img/icon_tab.png"
+              alt="logo"
+              class="img-responsive rounded-circle"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About section 2 -->
+    <section class="about2" id="about2">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="text-center">
+              <h3 class="fw-bold mb-5">About Me</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-text">
+              <h3 class="fs-4 mb-3">I Putu Ardita</h3>
+              <p>
+                I'm Putu Ardita, a Bali art and culture enthusiast, 
+                an active sports lover, a tech enthusiast, and a nature admirer. 
+                Inspired by Balinese art and traditions, I embrace physical challenges, 
+                stay updated on technology, and find serenity in the beauty of nature. 
+                This blend of interests shapes my dynamic identity. This is Score about Myself:
+              </p>
+            </div>
+            <div class="row text-center text-uppercase my-3">
+              <div class="col-sm-4">
+                <div class="info">
+                  <h4 class="fs-1 fw-bold">80</h4>
+                  <p>sport</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="info">
+                  <h4 class="fs-1 fw-bold">90</h4>
+                  <p>balinese culture</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="info">
+                  <h4 class="fs-1 fw-bold">85</h4>
+                  <p>technology</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 d-flex align-items-center">
+                <a href="https://maps.app.goo.gl/q1vBgZuidgLczKbU6" class="btn btn-danger me-5" target="_blank">SEE ME</a>
+                <div class="social-media">
+                  <a href="https://instagram.com/tu_ar06" class="me-2"target="_blank"><i class="bi bi-instagram"></i></a>
+                  <a href="https://facebook.com/putuardita.putuardita.9" class="me-2"target="_blank"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.tiktok.com/@1goodgame" class="me-2"target="_blank"><i class="bi bi-tiktok"></i></a>
+                  <a href="https://wa.me/6287762908293" class="me-2" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.strava.com/athletes/120911152" class="me-2" target="_blank"><i class="bi bi-strava"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 md-0">
+            <div class="hobiies mb-4">
+              <h4 class="fs-6">Art Culture</h4>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="95"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-danger" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="hobiies mb-4">
+              <h4 class="fs-6">Sport</h4>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-danger" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="hobiies mb-4">
+              <h4 class="fs-6">Technology</h4>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-danger" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="hobiies mb-4">
+              <h4 class="fs-6">Nature</h4>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="70"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-danger" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section 2 end -->
+
+    <!-- tools -->
+    <section id="tools" class="tools">
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 mb-4">
+            <h3>Some Tools I Use</h3>
+            <p>
+              There are tools i usually use when I do homework from the lecturer.
+            </p>
+          </div>
+        </div>
+        <!-- justify-content-center membuat seluruh isi konten di tengah -->
+        <div class="row justify-content-center">
+          <div class="col-md-4 col-10 mb-4">
+            <img src="img/ps_logo 1.png" alt="adobe" class="ps" />
+            <h5>Adobe Photoshop</h5>
+            <p class="text-muted">
+              Sering saya gunakan untuk membuat tugas UKM dan melatih kemampuan
+              saya dalam editing foto dan desain grafis.
+            </p>
+            <p class="d-inline-flex gap-1">
+              <a
+                class="btn btn-outline-secondary shadow-sm"
+                data-bs-toggle="collapse"
+                href="#adobe"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                More
+              </a>
+            </p>
+            <div class="collapse" id="adobe">
+              <div class="card card-body">
+                Adobe Photoshop is a powerful image editing software widely used for graphic design,
+                photo manipulation, and digital art creation.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-10 mb-4">
+            <img src="img/vscode_logo1.png" alt="vscode" class="vscode" />
+            <h5>Visual Studio Code</h5>
+            <p class="text-muted">
+              Text editor yang sering disebut VS Code, yang saya gunakan untuk
+              membuat serta memodifikasi sebuah kode program.
+            </p>
+            <p class="d-inline-flex gap-1">
+              <a
+                class="btn btn-outline-secondary shadow-sm"
+                data-bs-toggle="collapse"
+                href="#vscode"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                More
+              </a>
+            </p>
+            <div class="collapse" id="vscode">
+              <div class="card card-body">
+                Visual Studio Code, often abbreviated as VS Code, is a popular and lightweight 
+                source code editor developed by Microsoft, commonly used by programmers for coding 
+                and development tasks.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-10 mb-4">
+            <img src="img/figma_logo1.png" alt="figma_logo" />
+            <h5>Figma</h5>
+            <p class="text-muted">
+              Aplikasi berbasis web ini sering saya gunakan dalam mengerjakan
+              tugas kuliah yang memerlukan desain UI (<i>User Interface</i>).
+            </p>
+            <p class="d-inline-flex gap-1">
+              <a
+                class="btn btn-outline-secondary shadow-sm"
+                data-bs-toggle="collapse"
+                href="#figma"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                More
+              </a>
+            </p>
+            <div class="collapse" id="figma">
+              <div class="card card-body">
+                Figma is a cloud-based design tool that allows collaborative interface design 
+                and prototyping, making it a favorite among designers for creating user interfaces 
+                and user experiences.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-10 mb-4">
+            <img src="img/word_logo1.png" alt="ms_word" />
+            <h5>Microsoft Word</h5>
+            <p class="text-muted">
+              Software sejuta umat, di segala bidang menggunakan software ini
+              dalam membuat dokumen, surat dan tugas sekolah atau kuliah.
+            </p>
+            <p class="d-inline-flex gap-1">
+              <a
+                class="btn btn-outline-secondary shadow-sm"
+                data-bs-toggle="collapse"
+                href="#msword"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                More
+              </a>
+            </p>
+            <div class="collapse" id="msword">
+              <div class="card card-body">
+                Microsoft Word is a well-known word processing software that provides 
+                essential tools for document creation, editing, and formatting. It's widely 
+                used for various writing tasks.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-10 mb-4">
+            <img src="img/google_logo1.png" alt="google_logo" />
+            <h5>Google</h5>
+            <p class="text-muted">
+              Sebuah software yang saya gunakan untuk <i>Browsing</i>, belajar
+              hal baru, dan pemanfaatan fitur lainnya seperti drive dan email.
+            </p>
+            <p class="d-inline-flex gap-1">
+              <a
+                class="btn btn-outline-secondary shadow-sm"
+                data-bs-toggle="collapse"
+                href="#ket"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                More
+              </a>
+            </p>
+            <div class="collapse" id="ket">
+              <div class="card card-body">
+                Google is a multinational technology company known for its internet-related 
+                services and products, including the Google search engine, Gmail, Google Docs, 
+                and more. It plays a significant role in information access and communication on 
+                the internet.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <!--col-md8 berfungsi untuk mengatur responsif-->
+            <span>Welcome To</span>
+            <h3 class="py-2">My Gallery</h3>
+            <p>
+              This gallery displays my work, my pet, and 
+              more random things that i do when i have spare time.
+            </p>
+          </div>
+        </div>
+        <div
+          class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center"
+        >
+          <!--ketika lebar layar medium, maka akan memiliki 3 colom (md dan sm merupakan breakpoint)-->
+          <div class="col mt-3">
+            <a
+              href="img/logo_guide-02.png"
+              data-toggle="lightbox"
+              data-caption="Logo personal yang saya buat pertama kali menggunakan Adobe Illustrator."
+              data-gallery="mygallery"
+            >
+              <!-- data-toggle merupakan atribut untuk membuat lightbox -->
+              <!--gambar atau foto dengan ukuran besar-->
+              <img
+                src="img/logoin_gallery-03.jpg"
+                alt="Logo"
+                class="img-fluid w-100 rounded"
+              />
+              <!--gambar atau foto dengan ukuran kecil (thubnail)-->
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="img/aquascape.jpg"
+              data-toggle="lightbox"
+              data-caption="Aquascape yang saya buat dari pertengahan 2023."
+              data-gallery="mygallery"
+            >
+              <img
+                src="img/aquascape1.jpg"
+                alt="aquascape"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <!-- tag a merupakan foto besar setelah foto kecil diklik -->
+            <a
+              href="img/sanja.jpg"
+              data-toggle="lightbox"
+              data-caption="Anjing saya dirumah bernama 'Senja'."
+              data-gallery="mygallery"
+            >
+              <img
+                src="img/sanja1.jpg"
+                alt="Hewan Pelharaan"
+                class="img-fluid w-100 rounded"
+              />
+              <!-- tag img merupakan foto yang tampil dan diklik -->
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="img/gambar_sepatu.jpg"
+              data-toggle="lightbox"
+              data-caption="Desain Advertising sebagai tugas UKM."
+              data-gallery="mygallery"
+            >
+              <img
+                src="img/gambar_sepatu.jpg"
+                alt="Penjelasan"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="img/sepeda.jpg"
+              data-toggle="lightbox"
+              data-caption="Solo gowes di Mancingan Tampaksiring."
+              data-gallery="mygallery"
+            >
+              <img
+                src="img/sepeda1.jpg"
+                alt="hobi sepeda"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <!-- <div class="col mt-3">
+            <a
+              href="https://picsum.photos/id/118/1200/768"
+              data-toggle="lightbox"
+              data-caption="This describes the image"
+              data-gallery="mygallery"
+            >
+              <img
+                src="https://picsum.photos/id/118/400/533"
+                alt="Penjelasan"
+                class="img-fluid w-100 rounded"
+              />
+            </a> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <!--col-md8 berfungsi untuk mengatur resposif-->
+            <div class="contact-title text-center">
+              <h3>Contact</h3>
+              <p>
+                If you have suggestions and questions, please write them below, Thank you.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <div class="text ms-3">
+                <h4>Email</h4>
+                <p>putuardita15@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4">
+                <i class="bi bi-telephone"></i>
+              </div>
+              <div class="text ms-3">
+                <h4>Telephone</h4>
+                <p>087762908293</p>
+              </div>
+            </div>
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4">
+                <i class="bi bi-person-circle"></i>
+              </div>
+              <div class="text ms-3">
+                <h4>Pace</h4>
+                <p>You can pace to pace wkwkwk.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="contact-form">
+              <form
+                class="form"
+                id="my-form"
+                method="POST"
+                action="https://script.google.com/macros/s/AKfycbymLR_Xh77lbeSPDMy3TXsjvCW8GJyteuVWnRW2fCrEdr2rZ2-xCovkQpszsfzsY2ZK/exec"
+              >
+                <div class="row">
+                  <div class="col-lg-6 mb-4">
+                    <input
+                      type="text"
+                      name="nama"
+                      id="nama"
+                      placeholder="Your Name"
+                      class="form-control form-control-lg fs-6 shadow-sm"
+                    />
+                  </div>
+                  <div class="col-lg-6 mb-4">
+                    <input
+                      type="text"
+                      name="email"
+                      id="email"
+                      placeholder="Your Email"
+                      class="form-control form-control-lg fs-6 shadow-sm"
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <input
+                      type="text"
+                      name="subjek"
+                      id="subjek"
+                      placeholder="Subject"
+                      class="form-control form-control-lg fs-6 shadow-sm"
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <textarea
+                      name="pesan"
+                      id="pesan"
+                      placeholder="Your Massege"
+                      class="form-control form-control-lg fs-6 shadow-sm"
+                      rows="5"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                    <button
+                      type="submit"
+                      class="btn btn-danger px-3 shadow-sm rounded"
+                    >
+                      Send Massege
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block"
+              >Personal Website by I Putu Ardita &copy; 2023.</small
+            >
+            <small class="block"
+              ><i>Tetap tenang dan Lakukan.</i>
+              <a href="https://instagram.com/putuardita_" target="_blank"
+                >@putuardita_</a
+              ></small
+            >
+            <ul class="mt-5">
+              <li>
+                <a href="https://instagram.com/putuardita_" target="_blank"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://facebook.com/putuardita.putuardita.9"
+                  target="_blank"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.tiktok.com/@1goodgame" target="_blank"
+                  ><i class="bi bi-tiktok"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UC5GLeX8dfsjpYOkdiEWl8ag"
+                  target="_blank"
+                  ><i class="bi bi-youtube"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://wa.me/6287762908293" target="_blank"
+                  ><i class="bi bi-whatsapp"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://t.me/tuardita" target="_blank"
+                  ><i class="bi bi-telegram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- js bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- js lightbox gallery -->
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <!-- js form response -->
+    <script>
+      window.addEventListener("load", function () {
+        const form = document.getElementById("my-form");
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+          const data = new FormData(form);
+          const action = e.target.action;
+          fetch(action, {
+            method: "POST",
+            body: data,
+          }).then(() => {
+            alert("Terimakasih atas Saran dan Masukan Anda");
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
