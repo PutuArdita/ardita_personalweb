@@ -52,7 +52,7 @@ body {
 }
 
 .about2 h3,
-.tools h3 {
+.part h3 {
   font-family: "Young Serif", serif;
 }
 .about2 h4 {
@@ -75,25 +75,25 @@ body {
 }
 
 /* tools style */
-.tools {
+.part {
   padding-top: 6rem;
   padding-bottom: 4rem;
   background-color: var(--color);
   color: var(--bg);
 }
-.tools img {
+.part img {
   width: 60px;
   height: 60px;
   margin-bottom: 1.5rem;
 }
-.tools h5 {
+.part h5 {
   font-family: "Poppins";
 }
-.tools p {
+.part p {
   font-family: "Poppins";
   font-size: 0.9rem;
 }
-.tools a {
+.part a {
   font-family: "Poppins";
   font-size: 0.9rem;
 }
